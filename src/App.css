@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fdfdfd;
+    color: #333;
+}
+
+.newsletter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    padding: 20px;
+    background: #2c3e50;
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+/* Hero Section */
+.hero {
+    padding: 60px 20px;
+    max-width: 700px;
+}
+
+.hero h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Subscription Form */
+.subscribe {
+    margin: 30px 0;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe-form input {
+    padding: 12px;
+    margin: 10px 0;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscribe-form button {
+    padding: 12px 20px;
+    background: #2c3e50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.subscribe-form button:hover {
+    background: #1f6391;
+}
+
+/* Footer */
+.footer {
+    margin-top: 40px;
+    width: 100%;
+    padding: 20px;
+    background: #2c3e50;
+    color: #fff;
+}
